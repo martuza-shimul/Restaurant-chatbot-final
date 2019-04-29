@@ -1,0 +1,55 @@
+{
+  "id": "83d10390-100e-452c-a977-d50624f559fb",
+  "name": "faq-curry",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Curry is a broad general term that usually refers to anything in Indian cuisine that is simmered in a sauce.  This could mean chicken, lamb, fish, paneer (Indian ricotta cheese), pork (in some parts of India) or vegetables simmered in a sauce.  The sauce could be made of many different things: cream, yogurt, coconut milk, mustard, as well as  many other things."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "Is there anything I can help you with?",
+            "Anything else I can do for you?"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click to choose",
+          "replies": [
+            "Menu",
+            "Table Reservation",
+            "We\u0027re Hiring",
+            "Order Food",
+            "Offers"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "e36398b9-4007-4882-836e-83c7fe31c7c3",
+  "name": "coupon-promotion-complete",
+  "auto": true,
+  "contexts": [
+    "coupn-promotion-email"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Cool! Your response has been recorded."
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "https://i.gifer.com/7j48.gif"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Just show your Coupon code to the restaurant for getting your FREE dessert :)"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "Is there anything, I can help you with?",
+            "Anything else I can do for you?"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click to Select",
+          "replies": [
+            "Menu",
+            "We\u0027re hiring",
+            "Table Reservation",
+            "Order Food"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

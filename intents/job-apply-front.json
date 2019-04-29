@@ -1,0 +1,77 @@
+{
+  "id": "af120358-63ce-4784-8bd7-33e317add648",
+  "name": "job-apply-front",
+  "auto": true,
+  "contexts": [
+    "job"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "job-application-front",
+      "affectedContexts": [
+        {
+          "name": "job-app-front",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5a0e35d4-48be-4a30-8f9f-26f5eaf7783f",
+          "required": true,
+          "dataType": "@job-vacancy",
+          "name": "job-vacancy",
+          "value": "$job-vacancy",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For what position do you want to apply?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Great, For which position you want to apply?"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Front Staff",
+          "buttons": [
+            {
+              "text": "Waiter",
+              "postback": "Waiter"
+            },
+            {
+              "text": "Waitress",
+              "postback": "Waitress"
+            },
+            {
+              "text": "Not Interested",
+              "postback": "Not Interested"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

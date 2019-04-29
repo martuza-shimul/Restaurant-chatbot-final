@@ -1,0 +1,56 @@
+{
+  "id": "22d7a48b-7304-476a-b7d4-613bf65ce60c",
+  "name": "job",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "job-enquiry",
+      "affectedContexts": [
+        {
+          "name": "job",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "We\u0027re currently looking for new staff. We need Kitchen Staff and Front Staff in our store.",
+            "You\u0027ve come at the right time. We\u0027re just looking for a new Kitchen Staff and Front Staff. Please select the job position."
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click to choose",
+          "replies": [
+            "Kitchen Staff",
+            "Front Staff",
+            "Not interested"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "f8018e92-fce6-4d40-8036-6db7d38420d5",
+  "name": "faq-food-hot-query",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "No, not all Indian food is hot.  However, heat and how different people perceive heat in food is a very personal and subjective thing which varies greatly from person to person.  Generally speaking when someone makes authentic Indian food they don\u0027t make it to a specific level of heat: it is what it is."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "Is there anything I can help you with?",
+            "Anything else I can do for you?"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click to choose",
+          "replies": [
+            "Menu",
+            "Table Reservation",
+            "We\u0027re Hiring",
+            "Order Food",
+            "Offers"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

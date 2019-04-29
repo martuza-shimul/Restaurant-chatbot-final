@@ -1,0 +1,69 @@
+{
+  "id": "aae3509a-fd67-4d71-a582-69d05154d265",
+  "name": "food-order-menu",
+  "auto": true,
+  "contexts": [
+    "food-dish"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "food-order-menu",
+      "affectedContexts": [
+        {
+          "name": "food-menu",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "11f4f30e-f1ec-4aba-abcb-1de382702e9b",
+          "dataType": "@Menu",
+          "name": "Menu",
+          "value": "$Menu",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Cool !! You have chosen $Menu"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "How many dishes would you like to order?"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Choose here",
+          "replies": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

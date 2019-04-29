@@ -1,0 +1,39 @@
+[
+  {
+    "value": "Chicken Tikka masala",
+    "synonyms": [
+      "Chicken Tikka masala"
+    ]
+  },
+  {
+    "value": "Special Fried Rice",
+    "synonyms": [
+      "Special Fried Rice",
+      "fried rice"
+    ]
+  },
+  {
+    "value": "Vegetable masala",
+    "synonyms": [
+      "Vegetable masala"
+    ]
+  },
+  {
+    "value": "Hyderabadi Biriyani",
+    "synonyms": [
+      "Hyderabadi Biriyani"
+    ]
+  },
+  {
+    "value": "Fish masala",
+    "synonyms": [
+      "Fish masala"
+    ]
+  },
+  {
+    "value": "King Prawn masala",
+    "synonyms": [
+      "King Prawn masala"
+    ]
+  }
+]

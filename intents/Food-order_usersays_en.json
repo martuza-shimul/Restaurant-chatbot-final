@@ -1,0 +1,134 @@
+[
+  {
+    "id": "6e2aee6c-603f-45cb-b3b0-fb636a2d94d3",
+    "data": [
+      {
+        "text": "order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "def9d836-75d0-4a17-87e9-089c4d53d9df",
+    "data": [
+      {
+        "text": "Is there any food order and delivery system?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "65e0ce39-1986-4e76-8d24-ef7ed2d51967",
+    "data": [
+      {
+        "text": "Food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "af61a2cd-3912-4c2f-ab88-0d20c206cbd8",
+    "data": [
+      {
+        "text": "order Food",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cd596c8d-ddab-4c09-84f3-fdb9d005bdb8",
+    "data": [
+      {
+        "text": "May I know about food delivery?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a108b98e-b35d-49d1-b126-49c5accf6d97",
+    "data": [
+      {
+        "text": "Food delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "3abe0561-1169-4233-baa8-a5af33c10756",
+    "data": [
+      {
+        "text": "Food order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "caaa5980-a60d-4df0-8e9e-5572cf89eb6b",
+    "data": [
+      {
+        "text": "Is there any food delivery service?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "08ff9062-06dc-4137-8cf7-86371f3a1e15",
+    "data": [
+      {
+        "text": "Foods",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "39b754e6-88a7-441b-bbea-ee3157662a64",
+    "data": [
+      {
+        "text": "Can I order food?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8fa1a436-a350-4126-aa0e-801ce49cc9ee",
+    "data": [
+      {
+        "text": "ordering system",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "522dd9d5-cd44-459d-899d-df0651d02889",
+    "data": [
+      {
+        "text": "Tell me something about food order and delivery",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

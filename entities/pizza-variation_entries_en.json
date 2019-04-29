@@ -1,0 +1,74 @@
+[
+  {
+    "value": "Margheriata-Mid-$15.99",
+    "synonyms": [
+      "Margheriata-Mid-$15.99",
+      "margherita-mid",
+      "margherita-m"
+    ]
+  },
+  {
+    "value": "BBQ-Large-$18.99",
+    "synonyms": [
+      "BBQ-large",
+      "BBQ-L",
+      "BBQ-Large-$18.99"
+    ]
+  },
+  {
+    "value": "Vegana-Lagre-$16.99",
+    "synonyms": [
+      "Vegana-Lagre-$16.99",
+      "vegana-large",
+      "vegana-l"
+    ]
+  },
+  {
+    "value": "Margheriata-Large-$17.99",
+    "synonyms": [
+      "Margheriata-Large-$17.99",
+      "margherita-large",
+      "margherita-l"
+    ]
+  },
+  {
+    "value": "Vegana-Mid-$14.99",
+    "synonyms": [
+      "Vegana-Mid-$14.99",
+      "vegana-mid",
+      "vegana-m"
+    ]
+  },
+  {
+    "value": "Vegana-Small-$11.99",
+    "synonyms": [
+      "Vegana-Small-$11.99",
+      "vegana-small",
+      "vegana-s"
+    ]
+  },
+  {
+    "value": "BBQ-Small-$12.99",
+    "synonyms": [
+      "BBQ-Small-$12.99",
+      "BBQ-small",
+      "BBQ-s"
+    ]
+  },
+  {
+    "value": "BBQ-Mid-$16.99",
+    "synonyms": [
+      "BBQ-mid",
+      "BBQ-m",
+      "BBQ-mid-$16.99"
+    ]
+  },
+  {
+    "value": "Margheriata-Small-$12.99",
+    "synonyms": [
+      "Margheriata-Small-$12.99",
+      "margherita-small",
+      "margherita-s"
+    ]
+  }
+]

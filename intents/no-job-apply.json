@@ -1,0 +1,65 @@
+{
+  "id": "6f6f95e5-eab9-4501-851c-8a3b74db2000",
+  "name": "no-job-apply",
+  "auto": true,
+  "contexts": [
+    "job"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "no-job-apply",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "No problem, Talk to me again. If we have some more job opening, I\u0027ll let you know",
+            "Okay, We can talk another time"
+          ]
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "https://media1.tenor.com/images/a69c0ab0ba33b43409ac469f0960bfc4/tenor.gif?itemid\u003d11333351"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Is there anything, I can help you with?"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Check here",
+          "replies": [
+            "Menu",
+            "Table reservation",
+            "Order food",
+            "Offers"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

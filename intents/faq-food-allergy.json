@@ -1,0 +1,55 @@
+{
+  "id": "fdd5cd0b-87b3-44d6-956e-e328cf06ced3",
+  "name": "faq-food-allergy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "It is the takeaways responsibility to provide this information to consumers as they are independent of your Restaurant.\n\nWe will always do our best to put you in touch with the takeaway so that your requirements can be discussed."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "Is there anything I can help you with?",
+            "Anything else I can do for you?"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click to choose",
+          "replies": [
+            "Menu",
+            "Table Reservation",
+            "We\u0027re Hiring",
+            "Oeder Food",
+            "Offers"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

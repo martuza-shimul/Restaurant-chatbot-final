@@ -1,0 +1,55 @@
+{
+  "id": "20b8cdd5-b999-426c-be21-d22b7e540bdf",
+  "name": "faq-vagetarian-option",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Yes. We offer a complete range of vegetarian and non-vegetarian food, meaning there\u0027s something for you and every member of your family when you choose to dine with us."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "Is there anything I can help you with?",
+            "Anything else I can do for you?"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click to choose",
+          "replies": [
+            "Menu",
+            "Table reservation",
+            "We\u0027re Hiring",
+            "Order Food",
+            "Offers"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

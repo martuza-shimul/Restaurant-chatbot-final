@@ -1,0 +1,67 @@
+{
+  "id": "5e6ad117-bd50-4002-85c3-cd5917d649af",
+  "name": "job-application-front-staff",
+  "auto": true,
+  "contexts": [
+    "job-app-front"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "job-app-front",
+      "affectedContexts": [
+        {
+          "name": "job-app-front-staff",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3272e933-c148-4abd-9a52-a67504163a3f",
+          "required": true,
+          "dataType": "@Front-staff",
+          "name": "Front-staff",
+          "value": "$Front-staff",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Which position you prefer?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Well, I\u0027ll need some information for this position. Write \"START\"  to Continue"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Or Select here",
+          "replies": [
+            "START",
+            "Not Interested"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

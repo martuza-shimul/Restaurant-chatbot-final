@@ -1,0 +1,190 @@
+[
+  {
+    "id": "4f38f84d-15df-422e-9b1a-242894bb38e1",
+    "data": [
+      {
+        "text": "Special Fried Rice",
+        "alias": "Menu",
+        "meta": "@Menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d81939dc-8289-48b4-bdca-b75130de456c",
+    "data": [
+      {
+        "text": "can I order ",
+        "userDefined": false
+      },
+      {
+        "text": "vegetable masala",
+        "alias": "Menu",
+        "meta": "@Menu",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "25600716-365a-459f-8ba1-d7001fa64811",
+    "data": [
+      {
+        "text": "fish masala",
+        "alias": "Menu",
+        "meta": "@Menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4144f1dc-616c-4840-a4c9-131eb7fe33ed",
+    "data": [
+      {
+        "text": "can I order ",
+        "userDefined": false
+      },
+      {
+        "text": "fried rice",
+        "alias": "Menu",
+        "meta": "@Menu",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4249fba7-0e24-4f0e-ba20-452cdf58b593",
+    "data": [
+      {
+        "text": "Fried Rice",
+        "alias": "Menu",
+        "meta": "@Menu",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a7e8653b-fb7d-4f02-acb0-b305ad65aa94",
+    "data": [
+      {
+        "text": "Vegetable masala",
+        "alias": "Menu",
+        "meta": "@Menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "121ab19c-32fe-4df9-9505-e51a87856208",
+    "data": [
+      {
+        "text": "Can I order ",
+        "userDefined": false
+      },
+      {
+        "text": "Fish masala",
+        "alias": "Menu",
+        "meta": "@Menu",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "413140fa-834b-4310-b54b-cd75f09b50b3",
+    "data": [
+      {
+        "text": "Chicken Tikka masala",
+        "alias": "Menu",
+        "meta": "@Menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "df864fd8-fd95-44a7-909b-1caca98dc723",
+    "data": [
+      {
+        "text": "can I order ",
+        "userDefined": false
+      },
+      {
+        "text": "special fried rice",
+        "alias": "Menu",
+        "meta": "@Menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "82ae817c-fd88-4f67-a5ca-3598db41fbfa",
+    "data": [
+      {
+        "text": "Can I order ",
+        "userDefined": false
+      },
+      {
+        "text": "chicken tikka masala",
+        "alias": "Menu",
+        "meta": "@Menu",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "18dd4b32-d52c-42d8-8a58-d798b1efbd74",
+    "data": [
+      {
+        "text": "Hyderabadi Biriyani",
+        "alias": "Menu",
+        "meta": "@Menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2f6569ec-1c80-4f5b-9fb0-899c8ab4a25a",
+    "data": [
+      {
+        "text": "king prawn masala",
+        "alias": "Menu",
+        "meta": "@Menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

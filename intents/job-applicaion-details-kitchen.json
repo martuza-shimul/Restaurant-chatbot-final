@@ -1,0 +1,149 @@
+{
+  "id": "5c692996-b8b9-4c40-b6f9-b8a9b5ae8dd4",
+  "name": "job-applicaion-details-kitchen",
+  "auto": true,
+  "contexts": [
+    "job-app-kitchen-staff"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "details-application",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7df30581-b4d1-4b7a-bf90-4add891aa7b7",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "user-name",
+          "value": "$user-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you write your name?"
+            },
+            {
+              "lang": "en",
+              "value": "Please tell me your good name"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "f5aa323e-d4f3-4f5c-bed9-7814e8607b5d",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "previous-job",
+          "value": "$previous-job",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your current job position?"
+            },
+            {
+              "lang": "en",
+              "value": "Where are you working now?"
+            },
+            {
+              "lang": "en",
+              "value": "What is your current job title?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "ddd8ed6c-1b12-4480-ac2d-828af0b6afb2",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "years-of-experience",
+          "value": "$years-of-experience",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many years of experience do you have?"
+            },
+            {
+              "lang": "en",
+              "value": "Tell me how many years of experience in the field do yo have?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "a5ccfc63-8a82-4515-b0c1-155f9f968b1f",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone-number",
+          "value": "$phone-number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Tell me your Phone number"
+            },
+            {
+              "lang": "en",
+              "value": "At what number can we reach you?"
+            },
+            {
+              "lang": "en",
+              "value": "Can you give me your phone number, so we can call you"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "Thank you $user-name for your application. We\u0027ll be in touch soon.",
+            "Your application for the #job-application.job-vacancy will be processed as soon as possible. We\u0027ll contact you shortly."
+          ]
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "https://media1.tenor.com/images/287a7ad46468855ad633cb375369ac04/tenor.gif?itemid\u003d9054403"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "Is there anything, I can help you with?",
+            "Anything else I can do for you?"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Check here",
+          "replies": [
+            "Menu",
+            "Table Booking",
+            "Order food",
+            "Offers"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

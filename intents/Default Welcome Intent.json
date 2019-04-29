@@ -1,0 +1,131 @@
+{
+  "id": "e0c0a711-aeaa-4b94-8de7-e370cefe9250",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "https://cdn.dribbble.com/users/385237/screenshots/5678767/sailor_white_say_hi_animation.gif"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Hi There, I\u0027m Indiana, your Ai assistant here to help you with Reservations, Take away and Delivery. Helping you get things done with a click :)"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Type \"RESET\" if you want to start over again at any stage."
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Menu",
+          "subtitle": "Check our most popular menu",
+          "imageUrl": "https://media.giphy.com/media/3og0ITjgfD6vtzQngk/giphy.gif",
+          "buttons": [
+            {
+              "text": "Check Menu",
+              "postback": "Menu"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Table Reservation",
+          "subtitle": "You can Reserve a table for saving your time",
+          "imageUrl": "https://si.wsj.net/public/resources/images/BN-SE931_201702_G_20170222095044.gif",
+          "buttons": [
+            {
+              "text": "Reserve Table",
+              "postback": "book-table"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "We\u0027re Hiring",
+          "subtitle": "We have some job openings. Let\u0027s see you\u0027re the right fit or not",
+          "imageUrl": "https://blog.workable.com/wp-content/uploads/2016/02/dribbble-hiring.gif",
+          "buttons": [
+            {
+              "text": "Check Details",
+              "postback": "job-openings"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Delivery",
+          "subtitle": "Get your desired Food at home in just 30 minutes",
+          "imageUrl": "https://i.pinimg.com/originals/5e/f9/d7/5ef9d70b03d22b1acd145b9422d3a33f.gif",
+          "buttons": [
+            {
+              "text": "Order",
+              "postback": "order-pizza"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Promotional Offers",
+          "subtitle": "We present several offers for our promotions.",
+          "imageUrl": "https://media.giphy.com/media/qZSOu5MoaL3q0/giphy.gif",
+          "buttons": [
+            {
+              "text": "Check Offers",
+              "postback": "Promotion"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi! How are you doing?",
+            "Hello! How can I help you?",
+            "Good day! What can I do for you today?",
+            "Greetings! How can I assist?",
+            "Hi There, I\u0027m Indiana, your AI assistant here to help you with Reservations, Take aways and Delivery. Helping you get things done with a click :)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "FACEBOOK_WELCOME"
+    }
+  ]
+}

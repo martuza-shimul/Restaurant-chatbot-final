@@ -1,0 +1,9 @@
+{
+  "id": "bebe3e49-8efd-4bcf-ab9e-ca0fb7df4ff3",
+  "name": "Kitchen_staff",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,55 @@
+{
+  "id": "f992bf55-3d7f-42af-9ad6-6d3355f000d0",
+  "name": "faq-typeOfFood",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "We focus on traditional Punjabi cuisine at our authentic Amritsari food restaurant in Germany. When you dine with us, you\u0027ll experience all the sights, sounds, smells and tastes of this region\u0027s excellent culinary options."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "Is there anything I can help you with?",
+            "Anything else I can do for you?"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click to choose",
+          "replies": [
+            "Menu",
+            "Table Reservation",
+            "We\u0027re Hiring",
+            "Offers",
+            "Order food"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

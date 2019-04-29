@@ -1,0 +1,57 @@
+[
+  {
+    "id": "8151b1d1-e60a-492b-aa85-3c9737bb147c",
+    "data": [
+      {
+        "text": "where is the location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bb172dfd-8e34-4191-b6bd-19998e1f4884",
+    "data": [
+      {
+        "text": "can you tell me the location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0858acda-e6d3-46bf-8e05-2d506d762800",
+    "data": [
+      {
+        "text": "May I know the location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f361f5d5-5a1f-4d85-9317-c0d35bffe8f1",
+    "data": [
+      {
+        "text": "Where is the Restaurant located?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "83098041-36b5-4e5f-ac49-05c8845623ee",
+    "data": [
+      {
+        "text": "Where is it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

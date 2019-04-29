@@ -1,0 +1,55 @@
+{
+  "id": "9d8a11b2-e7e4-485f-b4cf-cab3fa6338c5",
+  "name": "faq-enjoy-Query",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Everyone can enjoy our small chain of restaurants – whether you\u0027re new to Indian food or looking for some gastronomic exploration. Each of our three locations specializes in preparing customized food choices to meet the special needs of a wide range of diners. Turn to us when you want food from India made your way."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "Is there anything I can help you with?",
+            "Anything else I can do for you?"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click to choose",
+          "replies": [
+            "Menu",
+            "Table reservation",
+            "We\u0027re Hiring",
+            "Order Food",
+            "Offers"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "e3f01459-53bf-4471-86f0-5c428c50f7c7",
+  "name": "Speak-to-a-Tem-Member",
+  "auto": true,
+  "contexts": [
+    "fallback"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Great. Give us a moment to find a team member to help you."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Hi, how can I help you? Please reply to this message with your request and a team member will respond to you as soon as possible."
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

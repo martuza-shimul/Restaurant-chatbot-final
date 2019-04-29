@@ -1,0 +1,172 @@
+{
+  "id": "73f88c38-627c-45af-a807-6294406595d9",
+  "name": "book.table.details",
+  "auto": true,
+  "contexts": [
+    "book-table"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "book-table-details",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f4f530ae-bc57-423c-bb8b-b25073e6bd6e",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "booking-date",
+          "value": "$booking-date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "When you would like to book for?"
+            },
+            {
+              "lang": "en",
+              "value": "When we should book a seat for you?"
+            },
+            {
+              "lang": "en",
+              "value": "Would yo like to tell me the date or day you want to book?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "0ccf39f1-d753-44d1-87c6-98c91cf85a61",
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "booking-time",
+          "value": "$booking-time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please pick a time between 9 AM to 9 PM"
+            },
+            {
+              "lang": "en",
+              "value": "Please confirm the time between 9 AM to 9 PM"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "44bda367-5832-4ae5-8d0b-2c758ddaa2f9",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number-of-person",
+          "value": "$number-of-person",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Okay, for how many people?"
+            },
+            {
+              "lang": "en",
+              "value": "Great, for how many person?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "ed188f16-e3c5-4642-9779-1e8c68c407de",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "user-name",
+          "value": "$user-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your good name?"
+            },
+            {
+              "lang": "en",
+              "value": "Please tell use your name?"
+            },
+            {
+              "lang": "en",
+              "value": "What is your last name?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "f456d9b3-abb5-40ba-a896-4a789d78d04f",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "user-email",
+          "value": "$user-email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Could I have a valid email address to confirm the booking?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "c671f1a7-677f-4d18-b0dc-8da3b3a99111",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "user-phone",
+          "value": "$user-phone",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Perfect, Can you send me a valid contact number to go with your booking request?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Cool $user-name! You have reserved a table for $number-of-person people at $booking-time  on $booking-date.\nJust ask the reception for your reservation when you reached to the Restaurant."
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "https://media1.tenor.com/images/ed3cf00e1c90206e943f68d349877690/tenor.gif?itemid\u003d5654395"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "Is there anything, I can help you with?",
+            "Anything else I can do for you?"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click to choose",
+          "replies": [
+            "Menu",
+            "Food Order",
+            "We\u0027re Hiring",
+            "Offers"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

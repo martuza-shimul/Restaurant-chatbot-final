@@ -1,0 +1,46 @@
+[
+  {
+    "id": "779f95a2-adef-4724-a3b2-4a99a54d9096",
+    "data": [
+      {
+        "text": "What type of food do you serve?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c2a345f5-5d6d-4b30-beac-d691ed3541c4",
+    "data": [
+      {
+        "text": "What type of cuisine do you serve?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "5b0f5dd6-c550-4a1f-b86d-667420cd0dfc",
+    "data": [
+      {
+        "text": "What type of Indian food do you serve?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "05d536bb-81c3-4406-a5d5-b2cba20e7f0b",
+    "data": [
+      {
+        "text": "What type of Indian cuisine do you serve?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

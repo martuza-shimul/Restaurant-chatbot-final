@@ -1,0 +1,157 @@
+[
+  {
+    "id": "2f320226-0a87-4d39-9af2-d62911298e46",
+    "data": [
+      {
+        "text": "May I know about the services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6260b7c2-a46a-4f50-8569-76d5817876d4",
+    "data": [
+      {
+        "text": "Sales Assistant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "433cd3d4-240a-4067-bc07-e67816397c11",
+    "data": [
+      {
+        "text": "Can you assist me?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0bf0fcf6-5f62-431b-942e-0d4fed02ca56",
+    "data": [
+      {
+        "text": "What type of service do you provide",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c9319289-f15f-44d9-906b-ba620b5587cb",
+    "data": [
+      {
+        "text": "Can you tell me about your services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7ea84e2b-67b9-4b48-8774-ae622f135546",
+    "data": [
+      {
+        "text": "i need help",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f449579a-7826-406f-965b-37d92049e142",
+    "data": [
+      {
+        "text": "Which service you provide",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "dbb33290-49d2-4808-968a-6029baceeb5b",
+    "data": [
+      {
+        "text": "Can you provide me with assistance?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bb467fc0-f37f-477b-a018-7b0905f4bbd8",
+    "data": [
+      {
+        "text": "Please tell me about your services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a2d4145a-2ca3-4c0d-9006-be5d51583476",
+    "data": [
+      {
+        "text": "services?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ad557d8c-ad52-4e50-80a6-00a8ba22b8cb",
+    "data": [
+      {
+        "text": "Service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "569e5ddd-bd3c-4307-a0e9-c01f64060531",
+    "data": [
+      {
+        "text": "how can you help me?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "86ae03eb-364e-4c5f-b0b4-6d2a42b66ff8",
+    "data": [
+      {
+        "text": "what can you do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0eae93a3-2701-4698-b92d-b2c75cc3a884",
+    "data": [
+      {
+        "text": "Services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "id": "cef18f3d-c539-4dfa-af98-9d4b2ced997f",
+  "name": "faq-shelf-stable",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Shelf stabilization is a process through which foods are packaged in such a way that they can reach a shelf life far longer than what they normally would have in an open unsealed container.  Our products are shelf stable and have a shelf life of up 24 months from the date of packaging.  Our pouches are just like cans from a shelf life point of view except they are packaged in what is called flexible packaging."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "Is there anything I can help you with?",
+            "Anything else I can do for you?"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click to choose",
+          "replies": [
+            "Menu",
+            "Table Reservation",
+            "We\u0027re Hiring",
+            "Order Food",
+            "Offers"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

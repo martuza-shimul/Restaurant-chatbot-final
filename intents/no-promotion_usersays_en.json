@@ -1,0 +1,79 @@
+[
+  {
+    "id": "a8e1a4c8-287d-42a8-aeb9-9f80cebdbd25",
+    "data": [
+      {
+        "text": "I\u0027ll take it later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "804bbeb0-e4cf-4b8c-9bc2-ee051d42bc73",
+    "data": [
+      {
+        "text": "No",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7991d376-a9c5-4681-8c1c-df861244a829",
+    "data": [
+      {
+        "text": "come back later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d08fbd6e-314a-4ad7-add7-3dff80ce1ebf",
+    "data": [
+      {
+        "text": "later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "409bf37e-5bd8-4918-9285-dd76a121c727",
+    "data": [
+      {
+        "text": "not interested",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "998d07e9-efe2-4545-bd3a-e341b071b8ab",
+    "data": [
+      {
+        "text": "maybe later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "99c33096-ecb0-462a-b4e6-8764d7f50b26",
+    "data": [
+      {
+        "text": "Not now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

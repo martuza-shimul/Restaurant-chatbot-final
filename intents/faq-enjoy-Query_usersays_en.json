@@ -1,0 +1,35 @@
+[
+  {
+    "id": "d0e6ebed-0d3c-4775-b8a7-3f858f15159b",
+    "data": [
+      {
+        "text": "Who can enjoy at this restaurant?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0efd2f9d-ee56-4722-8df9-d7b6836b35a2",
+    "data": [
+      {
+        "text": "Who could enjoy here?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6e6e3b27-e2c2-44db-9b3d-287e599846ac",
+    "data": [
+      {
+        "text": "Who would enjoy at this Restaurant?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

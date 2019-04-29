@@ -1,0 +1,156 @@
+[
+  {
+    "id": "135a4795-25bc-4330-953f-97cad93918c5",
+    "data": [
+      {
+        "text": "I\u0027ll book later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "cd1a9a93-2550-40da-a895-a6a4aa019886",
+    "data": [
+      {
+        "text": "cancel it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "11775c3a-2127-4b1e-a605-e3d9ce421a42",
+    "data": [
+      {
+        "text": "cancel the booking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "77e37129-54bd-4352-b608-83f7114e1715",
+    "data": [
+      {
+        "text": "not right now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6e839956-589e-45db-8bad-ba09119ebf84",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "02fdc6ae-3f85-4572-8ea0-bd14de9727e4",
+    "data": [
+      {
+        "text": "not interested",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "94c4a6a6-a5aa-4773-bc6d-ee5dbe110128",
+    "data": [
+      {
+        "text": "cancel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0cd79bde-f440-4134-b1de-5fef7dd3aac4",
+    "data": [
+      {
+        "text": "cancel the reservation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "694a6ba2-1df2-40ce-b0c5-4a75920a98f3",
+    "data": [
+      {
+        "text": "I\u0027ll do later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "278d5c5a-2b30-4675-9b07-aecb966c3788",
+    "data": [
+      {
+        "text": "clear it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "44ede7f7-3aa6-4e01-b37e-bb4f40b43651",
+    "data": [
+      {
+        "text": "nope",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e08b457c-8250-4b2e-a4cf-bebf6189de2e",
+    "data": [
+      {
+        "text": "not now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ff7e3e2e-46b4-422a-8a55-9b6eda75aae1",
+    "data": [
+      {
+        "text": "I\u0027ll reserve later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a192ce1a-e7c0-49ef-a046-9756a947c13c",
+    "data": [
+      {
+        "text": "maybe later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

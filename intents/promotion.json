@@ -1,0 +1,68 @@
+{
+  "id": "2932dabb-701f-4b01-9a7e-6b5969c3c59e",
+  "name": "promotion",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "promotion",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "Yes :) We have some Special Offers for you.",
+            "Welcome ! 👋 Check out our new offers"
+          ]
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "http://www.fortunefoods.com/ricefullyyours-campaign/ee/blogimages/03.gif"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "There are two offers available now. \"Birthday Campaign\" and \"Coupon for Discount or free dessert\"",
+            "\"Birthday Campaign\" and \"Coupon Promotion\", these two are available now."
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Write one to check the details",
+          "replies": [
+            "Birthday Campaign",
+            "Coupon Promotion",
+            "Not Now"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

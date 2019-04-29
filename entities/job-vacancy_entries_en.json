@@ -1,0 +1,33 @@
+[
+  {
+    "value": "Kitchen Staff",
+    "synonyms": [
+      "Kitchen Staff",
+      "Kitchen"
+    ]
+  },
+  {
+    "value": "Shop assistant",
+    "synonyms": [
+      "Shop Assistant",
+      "assistant",
+      "shop boy",
+      "shop girl",
+      "sales assistant"
+    ]
+  },
+  {
+    "value": "Front staff",
+    "synonyms": [
+      "Front staff",
+      "front"
+    ]
+  },
+  {
+    "value": "Accountant",
+    "synonyms": [
+      "Accountant",
+      "Cashier"
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "id": "51614898-bc43-4da9-9f2b-205033cb6a39",
+  "name": "no-coupon",
+  "auto": true,
+  "contexts": [
+    "coupon-promotion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "No problem, Talk to me again. If we have some offers, I\u0027ll let you know",
+            "Okay, We can talk another time"
+          ]
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "https://media1.tenor.com/images/a69c0ab0ba33b43409ac469f0960bfc4/tenor.gif?itemid\u003d11333351"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Is there anything, I can help you with?"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click to choose",
+          "replies": [
+            "Menu",
+            "Table Reservation",
+            "Job Iquiry",
+            "Pizza Delivery"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

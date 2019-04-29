@@ -1,0 +1,57 @@
+[
+  {
+    "id": "02e2c1a4-42ea-4859-8e7e-2930e8cbbe1c",
+    "data": [
+      {
+        "text": "Can you tell me about takeout",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0272f348-3a49-4256-b4a3-4db103ddd4f2",
+    "data": [
+      {
+        "text": "May I know about takeout?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ec106427-00ff-47ca-a482-f8abbb76dcd4",
+    "data": [
+      {
+        "text": "Do you offer takeout?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e41fa79d-a7a6-49c8-8e11-56b77c348546",
+    "data": [
+      {
+        "text": "I want to know about takeout",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "638b2ccd-e751-42ae-a08e-2e8905a94c52",
+    "data": [
+      {
+        "text": "Is there any takeout service?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

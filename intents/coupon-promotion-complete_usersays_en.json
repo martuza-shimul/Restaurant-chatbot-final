@@ -1,0 +1,146 @@
+[
+  {
+    "id": "b1d47f82-ac27-494b-a818-dea353664343",
+    "data": [
+      {
+        "text": "redeem please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "eb2ae15d-ed46-43cd-8f87-141ca247fb79",
+    "data": [
+      {
+        "text": "What do i need to do to redeem?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d4e6ea37-33ce-43b8-83dc-9229134a6dcb",
+    "data": [
+      {
+        "text": "How do i redeem?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8b01f2f7-050c-433c-bb5b-841d0a78649f",
+    "data": [
+      {
+        "text": "Accept",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4909b337-1df7-4aa2-b297-2948b3ed1e2b",
+    "data": [
+      {
+        "text": "How do I redeem my offer?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ab8841a3-f791-405e-a033-88127b2dbbfc",
+    "data": [
+      {
+        "text": "coupon redemption",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4ef361e3-444f-4e9e-afd3-c73a54898401",
+    "data": [
+      {
+        "text": "How can I redeem my promotional code?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c289b6af-42f1-4aa1-a34d-698ee8bf09b2",
+    "data": [
+      {
+        "text": "cash in coupon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7429a403-1967-426a-9a70-436127a750f2",
+    "data": [
+      {
+        "text": "Redeem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "eb4b8c06-3e4b-4c45-aa5d-7e742dfb4b13",
+    "data": [
+      {
+        "text": "Redeem coupon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "bd0dfd72-94e0-45a0-a986-593a8056a624",
+    "data": [
+      {
+        "text": "How do I redeem my coupon?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a6c67379-3e2a-492b-927e-2460ab3242aa",
+    "data": [
+      {
+        "text": "cash in",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f937efc2-cfdb-415a-bcbb-c5629d19948a",
+    "data": [
+      {
+        "text": "accept please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

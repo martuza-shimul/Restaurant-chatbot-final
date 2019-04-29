@@ -1,0 +1,63 @@
+{
+  "id": "eb3b3a5f-0e4c-49d4-adeb-6525321d5c52",
+  "name": "food-order-quantity",
+  "auto": true,
+  "contexts": [
+    "food-menu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "order-quantity",
+      "affectedContexts": [
+        {
+          "name": "food-dish-quantity",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "order-more",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3a570d56-2ac0-4386-9e21-360ad654eda9",
+          "dataType": "@sys.number",
+          "name": "order-number"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Click the below button to complete the order"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Here it is ✅",
+          "replies": [
+            "Complete order Now",
+            "Order more"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

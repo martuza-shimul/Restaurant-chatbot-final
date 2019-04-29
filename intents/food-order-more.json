@@ -1,0 +1,125 @@
+{
+  "id": "05de458f-2663-472e-b16c-e2aae3a9ab0f",
+  "name": "food-order-more",
+  "auto": true,
+  "contexts": [
+    "order-more"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "food-dish",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Great! Choose your favorite Indian Dish :)"
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Hyderabadi Biryani",
+          "subtitle": "Biryani with Beef, Mixed salad etc",
+          "imageUrl": "http://www.ndtv.com/cooks/images/hyderabadi%20biryani%20new.jpg",
+          "buttons": [
+            {
+              "text": "Order-£3.99",
+              "postback": "Hyderabadi Biriyani"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Chicken Tikka Masala",
+          "subtitle": "Chicken, Onion, BBQ-Sauce",
+          "imageUrl": "https://d1doqjmisr497k.cloudfront.net/-/media/schwartz/recipes/2000x1125/chicken_tikka_masala_2000.ashx?vd\u003d20180522T020024Z\u0026ir\u003d1\u0026width\u003d885\u0026height\u003d498\u0026crop\u003dauto\u0026quality\u003d75\u0026speed\u003d0\u0026hash\u003dCBC348B2ABC99F5971EF78A93ABBA7E7F5F47E97",
+          "buttons": [
+            {
+              "text": "Order- £4.99",
+              "postback": "Chicken Tikka masala"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Fish Masala",
+          "subtitle": "Fish, Tomato sauces",
+          "imageUrl": "https://i.ytimg.com/vi/3f0jcGm9A2A/hqdefault.jpg",
+          "buttons": [
+            {
+              "text": "Order- £4.49",
+              "postback": "fish masala"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "King Prawn Masala",
+          "subtitle": "Prawn, Sauces",
+          "imageUrl": "http://www.dishocean.com/media/uploads/food_category/1af8474c-da16-41f8-8f24-913dcf8dd9f1.jpg",
+          "buttons": [
+            {
+              "text": "Order- £5.99",
+              "postback": "king prawn masala"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Vegetable Masala",
+          "subtitle": "Mixed vegetable",
+          "imageUrl": "https://www.connoisseurusveg.com/wp-content/uploads/2015/02/chana_masala_veggies_detail.jpg",
+          "buttons": [
+            {
+              "text": "Order- £2.49",
+              "postback": "Vegetable masala"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Special Fried Rice",
+          "subtitle": "Rice, Vegetable, Egg etc",
+          "imageUrl": "https://i.ndtvimg.com/i/2018-02/fried-rice_620x330_81519290654.jpg",
+          "buttons": [
+            {
+              "text": "Order- £4.11",
+              "postback": "Fried Rice"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

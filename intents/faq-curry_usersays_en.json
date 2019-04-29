@@ -1,0 +1,24 @@
+[
+  {
+    "id": "c5751427-b9c6-4dfc-a816-810ea2ab1a33",
+    "data": [
+      {
+        "text": "curry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "59214552-9c28-41db-a0f2-4f646f587f7c",
+    "data": [
+      {
+        "text": "What is a curry?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

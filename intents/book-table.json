@@ -1,0 +1,59 @@
+{
+  "id": "65d3e4b4-66f6-4564-9ad6-d49eae33c72c",
+  "name": "book-table",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "book-table",
+      "affectedContexts": [
+        {
+          "name": "book-table",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "You\u0027re at the right place. We\u0027re glad that you have chosen our Restaurant. We need some information to complete the process. Please type START when you\u0027re ready.",
+            "We need some information to complete the process. Please type START when you\u0027re ready."
+          ]
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "https://static1.squarespace.com/static/56066f9be4b00830fddf190d/5c06928921c67c6b58cff142/5c0fff0acd83660cc7296f2f/1544554873177/13.gif?format\u003d500w"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click to choose",
+          "replies": [
+            "START",
+            "Not Now"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "db1e60e5-6613-4591-a0f9-883d7d2819a2",
+    "data": [
+      {
+        "text": "Yes, as a ",
+        "userDefined": false
+      },
+      {
+        "text": "Kitchen Staff",
+        "alias": "job-vacancy",
+        "meta": "@job-vacancy",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1db6528d-d8ce-40ff-97f8-754a766a4d68",
+    "data": [
+      {
+        "text": "Kitchen Staff",
+        "alias": "job-vacancy",
+        "meta": "@job-vacancy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "58cffa80-d5c0-41b9-9b83-c3ceccf1c7cd",
+    "data": [
+      {
+        "text": "I would like to apply for this job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "22964e95-afef-4def-b939-00efebe95499",
+    "data": [
+      {
+        "text": "I want to apply for a ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen staff",
+        "alias": "job-vacancy",
+        "meta": "@job-vacancy",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9adb4241-ed24-4320-b174-da8bca438bfb",
+    "data": [
+      {
+        "text": "Yes, I\u0027m interested",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "09ba7d07-dd0c-43c9-8082-1c0bf5cd2a35",
+    "data": [
+      {
+        "text": "I want to apply now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

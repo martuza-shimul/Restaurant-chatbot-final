@@ -1,0 +1,52 @@
+{
+  "id": "67f649f7-6f24-42df-ad78-99685c030672",
+  "name": "faq-type-of-restaurant",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Our dining establishment serves the most authentic Indian cuisine available in Germany. From traditional favorites like tandori chicken to zesty curries and more, we use a wide range of spices in plentiful quantities to make sure you taste India in every bite."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Is there anything I can help you with?v"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Check here",
+          "replies": [
+            "Menu",
+            "Reservation",
+            "Order Food",
+            "We\u0027re Hiring",
+            "Offers"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

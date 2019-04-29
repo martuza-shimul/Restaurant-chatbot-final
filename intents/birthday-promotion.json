@@ -1,0 +1,61 @@
+{
+  "id": "df78b414-463e-4dd6-9c44-dcda62fbdd04",
+  "name": "birthday-promotion",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "birthday-promotion",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Hi , enjoy a Free entree and specialty drink on us!"
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "https://media-cdn.tripadvisor.com/media/photo-s/12/12/52/fb/some-of-our-mouthwatering.jpg"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Please confirm your birthday is sometime in the next 7 days"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "click \u0027Yes it is\u0027 to confirm  👇👇",
+          "replies": [
+            "Yes it is",
+            "Not Now"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

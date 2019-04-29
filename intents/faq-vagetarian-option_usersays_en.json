@@ -1,0 +1,24 @@
+[
+  {
+    "id": "9ac536f1-0e67-4fc5-be48-e33f03c4f9f0",
+    "data": [
+      {
+        "text": "Is there any vegetarian options?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "48688114-64ff-48ea-a73f-7caec436ca99",
+    "data": [
+      {
+        "text": "Are vegetarian options available?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

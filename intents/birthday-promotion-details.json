@@ -1,0 +1,103 @@
+{
+  "id": "d3556e31-88b8-4911-a53a-53b44dea36b7",
+  "name": "birthday-promotion-details",
+  "auto": true,
+  "contexts": [
+    "birthday-promotion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "birthday-promotion-details",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6822dcf4-d1da-4eb0-aa4b-fd110cd60a56",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "bc-user-email",
+          "value": "$bc-user-email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Awesome! To redeem your free birthday entree and sign-up for future free offers, please enter your email"
+            },
+            {
+              "lang": "en",
+              "value": "Please enter a correct email address, e.g. me@mail.com"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "9e73b355-2fa2-440b-8b91-9b67df953714",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "be-user-phone",
+          "value": "$be-user-phone",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "And the phone number 📲"
+            },
+            {
+              "lang": "en",
+              "value": "Phone number, please !!"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Happy Birthday :) !\n\nYou can come anytime during your birthday week."
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "http://bestanimations.com/Holidays/Birthday/birthdaygifs/birthday-candles-happy-bday-wishes-animated-gif.gif"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Just show your email address to the reception of our Restaurant."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Is there anything, I can help you with?"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click to choose",
+          "replies": [
+            "Menu",
+            "Table Reservation",
+            "We\u0027re hiring",
+            "Order Food"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

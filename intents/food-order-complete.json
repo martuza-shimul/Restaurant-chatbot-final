@@ -1,0 +1,96 @@
+{
+  "id": "52736acd-1cec-4efa-b261-11e029d6759e",
+  "name": "food-order-complete",
+  "auto": true,
+  "contexts": [
+    "food-dish-quantity"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "food-order-complete",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7dbdec52-115d-49de-8952-ebbb30b817c9",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "user-phone",
+          "value": "$user-phone",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "☎ What is your mobile number to contact?"
+            },
+            {
+              "lang": "en",
+              "value": "Please write a valid mobile number e.g 01723397447"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "1bbabbf6-17d2-47a4-8e98-8b37aee7ca12",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "user-address",
+          "value": "$user-address",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "📍 Please type the delivery address"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Fantastic ! \nYour order is placed. You\u0027ll get a call for confirmation in a few minutes ⏰"
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "https://content3.jdmagicbox.com/hyderabad/j2/040pxx40.xx40.141230153104.v6j2/catalogue/raja-rani-ruchulu-and-food-court-kukatpally-hyderabad-south-indian-restaurants-zdl6.gif"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "Is there anything I can help you with?",
+            "Anything else I can do for you?"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click to choose",
+          "replies": [
+            "Menu",
+            "Table Reservation",
+            "We\u0027re hiring",
+            "Offers"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,121 @@
+{
+  "id": "298d3057-6ca8-4b32-82cf-babe62d99261",
+  "name": "job-applicaion-details-Front",
+  "auto": true,
+  "contexts": [
+    "job-app-front-staff"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "details-application-front",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "62703789-722e-4672-99f0-a02fc72b71ec",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "user-name",
+          "value": "$user-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you tell me your name?"
+            },
+            {
+              "lang": "en",
+              "value": "What is your good name?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "4f4ec82f-7265-404f-b29c-324dd226ba20",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "previous-job",
+          "value": "$previous-job",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your current job position?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "d6c1f778-5a02-4fc1-aa32-2c4520aa5ca2",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "years-of-experience",
+          "value": "$years-of-experience",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many years of experience do you have?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "cf0db031-0034-491d-808f-5e70e5b2fea3",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "name": "phone-number",
+          "value": "$phone-number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you give me your phone number, so we can call you?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Your application for the #job-app-front.Front-staff will be processed as soon as possible. We\u0027ll contact you shortly."
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "https://media1.tenor.com/images/287a7ad46468855ad633cb375369ac04/tenor.gif?itemid\u003d9054403"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Is there anything, I can help you with?"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Check here",
+          "replies": [
+            "Menu",
+            "Table Reservation",
+            "Offers",
+            "Order Food"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

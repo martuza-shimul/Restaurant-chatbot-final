@@ -1,0 +1,100 @@
+[
+  {
+    "id": "1f63f516-31ee-45e0-b5e4-b76205d2303b",
+    "data": [
+      {
+        "text": "Can I apply for ",
+        "userDefined": false
+      },
+      {
+        "text": "a waitress?",
+        "alias": "Front-staff",
+        "meta": "@Front-staff",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "1f50f3b9-b698-4874-9128-aa036d0ed6f7",
+    "data": [
+      {
+        "text": "I want to apply for ",
+        "userDefined": false
+      },
+      {
+        "text": "waitress",
+        "alias": "Front-staff",
+        "meta": "@Front-staff",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6a985c59-3aa2-459f-aa07-50e2dbefaf11",
+    "data": [
+      {
+        "text": "May I apply for ",
+        "userDefined": false
+      },
+      {
+        "text": "a waiter",
+        "alias": "Front-staff",
+        "meta": "@Front-staff",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "b2346239-9cbd-479f-9143-566538d83854",
+    "data": [
+      {
+        "text": "Waiter",
+        "alias": "Front-staff",
+        "meta": "@Front-staff",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0d581ee7-1948-4b20-b0de-810ec1194cd4",
+    "data": [
+      {
+        "text": "waitress",
+        "alias": "Front-staff",
+        "meta": "@Front-staff",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "89650211-c766-4c26-889e-303a1ac3b5b1",
+    "data": [
+      {
+        "text": "I want to apply for ",
+        "userDefined": false
+      },
+      {
+        "text": "waiter",
+        "alias": "Front-staff",
+        "meta": "@Front-staff",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

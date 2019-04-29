@@ -1,0 +1,20 @@
+[
+  {
+    "value": "vegetarian",
+    "synonyms": [
+      "vegetarian",
+      "vegetable pizza",
+      "vegetable"
+    ]
+  },
+  {
+    "value": "non-vegetarian",
+    "synonyms": [
+      "non-vegetarian",
+      "beef pizza",
+      "chicken pizza",
+      "mutton pizza",
+      "fish pizza"
+    ]
+  }
+]

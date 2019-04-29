@@ -1,0 +1,57 @@
+[
+  {
+    "id": "fcbe4750-1fed-40de-b15a-398c3d93ab89",
+    "data": [
+      {
+        "text": "Details about restaurant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c1d5cfaf-4c71-4bca-a10b-49fdfd0843be",
+    "data": [
+      {
+        "text": "Tell me something about your restaurant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "476e198f-af90-4521-9e7d-f188409e954c",
+    "data": [
+      {
+        "text": "Details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e125604c-b586-497d-abad-02ff4e4bb1b5",
+    "data": [
+      {
+        "text": "Can you tell me details about this restaurant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8edcc07e-312d-4e33-adb6-d531e363a669",
+    "data": [
+      {
+        "text": "may I know the details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

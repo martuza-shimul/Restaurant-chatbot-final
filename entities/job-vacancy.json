@@ -1,0 +1,9 @@
+{
+  "id": "cc38fdb4-279f-4ad3-b023-3df18c5f9bd7",
+  "name": "job-vacancy",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

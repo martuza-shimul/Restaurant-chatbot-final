@@ -1,0 +1,115 @@
+{
+  "id": "c2faae68-3d6f-432e-b435-a1cc062cdc3e",
+  "name": "service-queries",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "service-query",
+      "affectedContexts": [
+        {
+          "name": "service-queries",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "Hello! Thanks for your interest. I can provide you the below services:",
+            "Here you go :)"
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Menu",
+          "subtitle": "Check our best selling menu",
+          "imageUrl": "https://media.giphy.com/media/3og0ITjgfD6vtzQngk/giphy.gif",
+          "buttons": [
+            {
+              "text": "Check Menu",
+              "postback": "Menu"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Table Reservation",
+          "subtitle": "You can book a table anytime you want",
+          "imageUrl": "https://si.wsj.net/public/resources/images/BN-SE931_201702_G_20170222095044.gif",
+          "buttons": [
+            {
+              "text": "Book table",
+              "postback": "book-table"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "We\u0027re Hiring",
+          "subtitle": "We have some job openings. Let\u0027s see you\u0027re the right fit or not",
+          "imageUrl": "https://blog.workable.com/wp-content/uploads/2016/02/dribbble-hiring.gif",
+          "buttons": [
+            {
+              "text": "See details",
+              "postback": "job-openings"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Order Food",
+          "subtitle": "Let us know that what type of pizza you want",
+          "imageUrl": "https://i.pinimg.com/originals/5e/f9/d7/5ef9d70b03d22b1acd145b9422d3a33f.gif",
+          "buttons": [
+            {
+              "text": "Order",
+              "postback": "order-pizza"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Offers",
+          "subtitle": "We present several offers for our promotions.",
+          "imageUrl": "https://media.giphy.com/media/qZSOu5MoaL3q0/giphy.gif",
+          "buttons": [
+            {
+              "text": "Check Offers",
+              "postback": "Promotion"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

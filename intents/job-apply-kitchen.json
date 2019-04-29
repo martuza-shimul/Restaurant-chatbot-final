@@ -1,0 +1,77 @@
+{
+  "id": "a7b47a87-1e42-467f-b4f7-a78cd129331d",
+  "name": "job-apply-kitchen",
+  "auto": true,
+  "contexts": [
+    "job"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "job-application-kitchen",
+      "affectedContexts": [
+        {
+          "name": "job-app-kitchen",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6629979b-64f1-4704-a187-5141ca0b52d3",
+          "required": true,
+          "dataType": "@job-vacancy",
+          "name": "job-vacancy",
+          "value": "$job-vacancy",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For what position do you want to apply?"
+            },
+            {
+              "lang": "en",
+              "value": "What job are you interested in?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Great, For which position you want to apply?"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Kitchen staff",
+          "replies": [
+            "Chef",
+            "Commis Chef",
+            "Tandoori Chef",
+            "Cook",
+            "Kitchen Porter",
+            "Not Interested"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

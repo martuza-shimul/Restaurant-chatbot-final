@@ -1,0 +1,141 @@
+[
+  {
+    "id": "5f25e0c1-aad6-4279-9b31-2c51ce2b7e5d",
+    "data": [
+      {
+        "text": "I would like to apply for this job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "688ab914-43f4-4faa-bf89-0a13cd567865",
+    "data": [
+      {
+        "text": "I want to apply for the job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c7cd2407-ca48-4aea-840e-142e9f7d038f",
+    "data": [
+      {
+        "text": "Can I apply for ",
+        "userDefined": false
+      },
+      {
+        "text": "front",
+        "alias": "job-vacancy",
+        "meta": "@job-vacancy",
+        "userDefined": false
+      },
+      {
+        "text": " staff?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f3a75d39-e508-4a08-ba96-216aefe4713a",
+    "data": [
+      {
+        "text": "Yes, I\u0027m interested",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9b53c6e7-970d-41b4-9d70-283b3a933610",
+    "data": [
+      {
+        "text": "I would like to apply for ",
+        "userDefined": false
+      },
+      {
+        "text": "the front staff",
+        "alias": "job-vacancy",
+        "meta": "@job-vacancy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f7b1f58b-67e3-4519-9dac-c9db458ac164",
+    "data": [
+      {
+        "text": "I want to apply for ",
+        "userDefined": false
+      },
+      {
+        "text": "front staff",
+        "alias": "job-vacancy",
+        "meta": "@job-vacancy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c3a7d452-5f73-4810-ba81-91b1374adbd7",
+    "data": [
+      {
+        "text": "I want to apply for ",
+        "userDefined": false
+      },
+      {
+        "text": "a front",
+        "alias": "job-vacancy",
+        "meta": "@job-vacancy",
+        "userDefined": false
+      },
+      {
+        "text": " job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "314e280c-6977-4ce7-b9da-1f5df7fb5834",
+    "data": [
+      {
+        "text": "Front",
+        "alias": "job-vacancy",
+        "meta": "@job-vacancy",
+        "userDefined": false
+      },
+      {
+        "text": " job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "91288b25-0670-4012-a405-597d86a4a5ef",
+    "data": [
+      {
+        "text": "Front staff",
+        "alias": "job-vacancy",
+        "meta": "@job-vacancy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

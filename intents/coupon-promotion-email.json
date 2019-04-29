@@ -1,0 +1,85 @@
+{
+  "id": "849f2aa3-49be-4de5-b080-c8d23fc2d109",
+  "name": "coupon-promotion-email",
+  "auto": true,
+  "contexts": [
+    "coupon-promotion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "coupon-email",
+      "affectedContexts": [
+        {
+          "name": "coupn-promotion-email",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "816d79f2-65d6-4926-9130-22ee3105e422",
+          "required": true,
+          "dataType": "@sys.email",
+          "name": "coupon-user-email",
+          "value": "$coupon-user-email",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Cool! Please enter your email address to proceed 📧:)"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Congratulations!\nHere\u0027s your coupon code 👇"
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "https://digitalambitions.co.uk/wp-content/uploads/2019/03/Restaurant-Promo.png"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Coupon code: 284-2044942095623980"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "⚠ If you\u0027re ready to redeem your coupon, please type \"Redeem or Accept\"."
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click here",
+          "replies": [
+            "Redeem",
+            "Not Now"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

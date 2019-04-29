@@ -1,0 +1,24 @@
+[
+  {
+    "id": "8462cac8-ef7e-42bf-b50e-a47cbfa3160e",
+    "data": [
+      {
+        "text": "Is all Indian food hot?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "16c6f26a-9b90-4a38-ad9d-210dcf78d88b",
+    "data": [
+      {
+        "text": "are all indian cuisine hot?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

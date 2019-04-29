@@ -1,0 +1,106 @@
+{
+  "id": "ec8bec41-5e50-4927-a6d1-7e4cf0724109",
+  "name": "menu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "menu",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "Here is our Menu",
+            "Here you go :)",
+            "These are our menu categories"
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "BREAKFAST",
+          "subtitle": "",
+          "imageUrl": "https://digitalambitions.co.uk/wp-content/uploads/2019/03/Breakfast-menu.jpg",
+          "buttons": [
+            {
+              "text": "Check Breakfast",
+              "postback": "https://digitalambitions.co.uk/wp-content/uploads/2019/03/breakfast.jpg"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "LUNCH",
+          "subtitle": "",
+          "imageUrl": "https://digitalambitions.co.uk/wp-content/uploads/2019/03/Lunch-menu.jpg",
+          "buttons": [
+            {
+              "text": "Check Lunch",
+              "postback": "https://digitalambitions.co.uk/wp-content/uploads/2019/03/lunch.jpg"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "DINNER",
+          "subtitle": "",
+          "imageUrl": "https://digitalambitions.co.uk/wp-content/uploads/2019/03/Dinner-menu.jpg",
+          "buttons": [
+            {
+              "text": "Check Dinner",
+              "postback": "https://digitalambitions.co.uk/wp-content/uploads/2019/03/Dinner-1.jpg"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": [
+            "Is there anything, I can help you with?",
+            "Anything else I can do for you?"
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click to select",
+          "replies": [
+            "Table Reservation",
+            "We\u0027re Hiring",
+            "Order Food",
+            "Offers"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
